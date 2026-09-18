@@ -1,16 +1,16 @@
-# 🎮 Runner Game com Pygame
+#  Runner Game com Pygame
 
 Este projeto é um **jogo estilo endless runner** desenvolvido em **Python utilizando a biblioteca Pygame**. O objetivo é simples: controlar o personagem, desviar dos obstáculos e sobreviver o máximo de tempo possível para aumentar sua pontuação.
 
 ---
 
-## 🚀 Demonstração
+##  Demonstração
 
 ![Gameplay do jogo](assets/gameplay.png)
 
 ---
 
-## 🧠 Sobre o projeto
+##  Sobre o projeto
 
 Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de programação e desenvolvimento de jogos, como:
 
@@ -25,7 +25,7 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais 
 
 ---
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
 - Movimento do personagem com pulo
 - Obstáculos dinâmicos (snail e fly)
@@ -36,7 +36,7 @@ Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais 
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Python
 - Pygame
