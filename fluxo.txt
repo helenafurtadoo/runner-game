@@ -1,0 +1,211 @@
+fluxo do projeto versão 2:
+
+FASE 1 - PREPARAÇÃO  XXXXXXXXXXXXXXXXX
+
+* Salvar a versão atual
+* Criar a branch version-2
+* Organizar as pastas do projeto
+
+FASE 2 - REFATORAÇÃO BASE   
+
+* Criar settings.py
+* Criar a classe Player
+* Criar a classe Obstacle
+* Criar a classe Game
+* Deixar o main.py apenas iniciando o jogo
+* Garantir que a versão atual continua funcionando
+
+FASE 3 - ESTADOS DO JOGO
+
+* Criar MENU
+* Criar PLAYING
+* Criar PAUSED
+* Criar GAME_OVER
+* Centralizar as transições de estado na classe Game
+
+FASE 4 - MENU PRINCIPAL
+
+* Criar opção de jogar
+* Criar opção de instruções
+* Criar opção de sair
+* Integrar o menu com os estados do jogo
+
+FASE 5 - PAUSE
+
+* Pausar o jogo com ESC
+* Continuar o jogo
+* Voltar ao menu
+* Garantir que timers e movimentações parem corretamente
+
+FASE 6 - GAME OVER E RESTART
+
+* Criar tela de game over
+* Mostrar score final
+* Criar opção de reiniciar
+* Criar opção de voltar ao menu
+* Resetar corretamente todos os dados de uma partida
+
+FASE 7 - DIFICULDADE PROGRESSIVA
+
+* Criar velocidade base do jogo
+* Aumentar velocidade conforme o score
+* Ajustar frequência de obstáculos
+* Centralizar a dificuldade na classe Game
+
+FASE 8 - MELHORAR OS OBSTÁCULOS
+
+* Criar novos tipos de obstáculos
+* Criar geração aleatória
+* Criar obstáculos em diferentes alturas
+* Criar diferentes comportamentos
+* Fazer todos usarem o sistema de dificuldade
+
+FASE 9 - SISTEMA DE VIDAS
+
+* Adicionar vidas ao Player
+* Perder uma vida ao colidir
+* Criar invulnerabilidade temporária
+* Integrar vidas com o GAME_OVER
+
+FASE 10 - HUD BASE
+
+* Mostrar score
+* Mostrar vidas
+* Preparar espaço para high score
+* Preparar espaço para moedas e power-ups
+
+FASE 11 - HIGH SCORE
+
+* Criar highscore.json
+* Criar função para carregar o recorde
+* Criar função para salvar o recorde
+* Atualizar o recorde no fim da partida
+* Mostrar high score no HUD e no game over
+
+FASE 12 - SISTEMA DE MOEDAS
+
+* Criar classe Coin
+* Criar geração de moedas
+* Criar colisão entre jogador e moeda
+* Criar contador de moedas
+* Mostrar moedas no HUD
+
+FASE 13 - POWER-UPS
+
+* Criar classe PowerUp
+* Criar sistema de duração dos efeitos
+* Criar escudo
+* Criar pontuação dobrada
+* Criar slow motion
+* Integrar power-ups com Player, Game e obstáculos
+
+FASE 14 - HUD COMPLETO
+
+* Mostrar score
+* Mostrar high score
+* Mostrar vidas
+* Mostrar moedas
+* Mostrar power-up ativo
+* Mostrar duração de efeitos quando necessário
+
+FASE 15 - TELA DE INSTRUÇÕES
+
+* Explicar controles
+* Explicar vidas
+* Explicar moedas
+* Explicar obstáculos
+* Explicar power-ups
+* Integrar com o menu principal
+
+FASE 16 - MELHORAR O CENÁRIO
+
+* Criar camadas de fundo
+* Criar efeito de parallax
+* Fazer o cenário acompanhar a velocidade do jogo
+
+FASE 17 - MELHORAR AS ANIMAÇÕES
+
+* Criar animação de corrida
+* Criar animação de pulo
+* Criar animação de dano
+* Criar animação de morte
+* Integrar animações aos estados do Player
+
+FASE 18 - SONS
+
+* Adicionar som de pulo
+* Adicionar som de moeda
+* Adicionar som de colisão
+* Adicionar som de power-up
+* Adicionar som de game over
+* Adicionar música de fundo
+
+FASE 19 - CONFIGURAÇÕES
+
+* Criar opção de música ON/OFF
+* Criar opção de efeitos sonoros ON/OFF
+* Integrar as configurações ao sistema de áudio
+
+FASE 20 - ORGANIZAÇÃO FINAL
+
+* Criar requirements.txt
+* Criar .gitignore
+* Remover prints de teste
+* Remover código duplicado
+* Remover código não utilizado
+* Padronizar nomes
+* Adicionar docstrings onde fizer sentido
+
+FASE 21 - TESTES COMPLETOS
+
+* Testar menu
+* Testar transições de estado
+* Testar jogador
+* Testar pulo
+* Testar obstáculos
+* Testar dificuldade
+* Testar colisões
+* Testar vidas
+* Testar invulnerabilidade
+* Testar moedas
+* Testar power-ups
+* Testar high score
+* Testar pause
+* Testar game over
+* Testar restart
+* Testar sons
+* Testar configurações
+* Testar saída do jogo
+
+FASE 22 - DOCUMENTAÇÃO
+
+* Atualizar README.md
+* Explicar o projeto
+* Explicar a arquitetura
+* Explicar a estrutura de arquivos
+* Mostrar diferenças entre V1 e V2
+* Adicionar controles
+* Explicar como executar o projeto
+
+FASE 23 - DEMONSTRAÇÃO
+
+* Gravar GIF ou vídeo curto
+* Mostrar menu
+* Mostrar gameplay
+* Mostrar moedas e power-ups
+* Mostrar game over
+* Adicionar a demonstração ao README
+
+FASE 24 - FINALIZAÇÃO NO GIT
+
+* Revisar commits
+* Fazer push da branch version-2
+* Abrir Pull Request
+* Revisar mudanças
+* Fazer merge para main
+
+FASE 25 - RELEASE
+
+* Criar a versão v2.0.0 no GitHub
+* Escrever as release notes
+* Listar as principais funcionalidades da V2
